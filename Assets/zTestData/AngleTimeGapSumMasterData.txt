@@ -1,0 +1,15 @@
+leftUpLeg:1.215174
+leftLeg:3.227048
+rightUpLeg:1.040731
+rightLeg:2.202096
+spine:0.3008825
+spine1:0.190325
+spine2:0.2032257
+leftShoulder:0.5035737
+leftArm:0.995576
+leftForeArm:2.590057
+neck:0.2657754
+neck1:0.266851
+rightShoulder:0.5106894
+rightArm:1.496193
+rightForeArm:2.567936

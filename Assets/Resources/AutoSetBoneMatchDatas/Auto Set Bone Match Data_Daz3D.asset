@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425801d071a38064793eafa00c54323d, type: 3}
+  m_Name: Auto Set Bone Match Data_Daz3D
+  m_EditorClassIdentifier: 
+  DataList:
+  - boneType: 4
+    keyWords:
+    - abdomenLower
+    - AbdomenLower
+    - spine
+    - Spine
+  - boneType: 21
+    keyWords:
+    - abdomenUpper
+    - AbdomenUpper
+    - spine1
+    - Spine1
+  - boneType: 71
+    keyWords:
+    - addedPelvis
+    - AddedPelvis
+    - pelvis
+    - Pelvis
+  - boneType: 5
+    keyWords:
+    - chest
+    - Chest
+    - chestLower
+    - ChestLower
+  - boneType: 6
+    keyWords:
+    - chestUpper
+    - ChestUpper
+    - upperChest
+    - UpperChest
+  - boneType: 1
+    keyWords:
+    - head
+    - Head
+  - boneType: 3
+    keyWords:
+    - hip
+    - Hip
+    - hips
+    - Hips
+  - boneType: 65
+    keyWords:
+    - jaw
+    - Jaw
+    - lowerJaw
+    - LowerJaw
+  - boneType: 72
+    keyWords:
+    - lBigToe
+    - LBigToe
+  - boneType: 84
+    keyWords:
+    - lCarpal1
+    - LCarpal1
+  - boneType: 85
+    keyWords:
+    - lCarpal2
+    - LCarpal2
+  - boneType: 86
+    keyWords:
+    - lCarpal3
+    - LCarpal3
+  - boneType: 87
+    keyWords:
+    - lCarpal4
+    - LCarpal4
+  - boneType: 7
+    keyWords:
+    - lCollar
+    - LCollar
+    - leftCollar
+    - LeftCollar
+    - leftShoulder
+    - LeftShoulder
+  - boneType: 34
+    keyWords:
+    - lIndex1
+    - LIndex1
+  - boneType: 35
+    keyWords:
+    - lIndex2
+    - LIndex2
+  - boneType: 36
+    keyWords:
+    - lIndex3
+    - LIndex3
+  - boneType: 37
+    keyWords:
+    - lMid1
+    - LMid1
+  - boneType: 38
+    keyWords:
+    - lMid2
+    - LMid2
+  - boneType: 39
+    keyWords:
+    - lMid3
+    - LMid3
+  - boneType: 43
+    keyWords:
+    - lPinky1
+    - LPinky1
+  - boneType: 44
+    keyWords:
+    - lPinky2
+    - LPinky2
+  - boneType: 45
+    keyWords:
+    - lPinky3
+    - LPinky3
+  - boneType: 40
+    keyWords:
+    - lRing1
+    - LRing1
+  - boneType: 41
+    keyWords:
+    - lRing2
+    - LRing2
+  - boneType: 42
+    keyWords:
+    - lRing3
+    - LRing3
+  - boneType: 73
+    keyWords:
+    - lSmallToe1
+    - LSmallToe1
+  - boneType: 74
+    keyWords:
+    - lSmallToe2
+    - LSmallToe2
+  - boneType: 75
+    keyWords:
+    - lSmallToe3
+    - LSmallToe3
+  - boneType: 76
+    keyWords:
+    - lSmallToe4
+    - LSmallToe4
+  - boneType: 82
+    keyWords:
+    - lThighTwist
+    - LThighTwist
+    - muscle_UpperLeg_L
+    - Muscle_UpperLeg_L
+  - boneType: 31
+    keyWords:
+    - lThumb1
+    - LThumb1
+  - boneType: 32
+    keyWords:
+    - lThumb2
+    - LThumb2
+  - boneType: 33
+    keyWords:
+    - lThumb3
+    - LThumb3
+  - boneType: 9
+    keyWords:
+    - leftArm
+    - LeftArm
+    - leftShoulerBend
+    - LeftShoulerBend
+    - lShldrBend
+    - LShldrBend
+    - lShoulerBend
+    - LShoulerBend
+  - boneType: 69
+    keyWords:
+    - leftEye
+    - LeftEye
+    - lEye
+    - LEye
+  - boneType: 19
+    keyWords:
+    - leftFoot
+    - LeftFoot
+    - lFoot
+    - LFoot
+  - boneType: 11
+    keyWords:
+    - leftForeArm
+    - LeftForeArm
+    - leftForearmBend
+    - LeftForearmBend
+    - lForearmBend
+    - LForearmBend
+  - boneType: 28
+    keyWords:
+    - leftForeFoot
+    - LeftForeFoot
+    - leftMetatarsals
+    - LeftMetatarsals
+    - lMetatarsals
+    - LMetatarsals
+  - boneType: 62
+    keyWords:
+    - leftForearmTwist
+    - LeftForearmTwist
+    - lForearmTwist
+    - LForearmTwist
+    - muscle_ForeArm_L
+    - Muscle_ForeArm_L
+  - boneType: 13
+    keyWords:
+    - leftHand
+    - LeftHand
+    - lHand
+    - LHand
+  - boneType: 17
+    keyWords:
+    - leftLeg
+    - LeftLeg
+    - leftShin
+    - LeftShin
+    - lowerLeg_L
+    - LowerLeg_L
+    - lShin
+    - LShin
+  - boneType: 61
+    keyWords:
+    - leftShoulderTwist
+    - LeftShoulderTwist
+    - lShldrTwist
+    - LShldrTwist
+    - lShoulderTwist
+    - LShoulderTwist
+    - muscle_Arm_L
+    - Muscle_Arm_L
+  - boneType: 15
+    keyWords:
+    - leftThighBend
+    - LeftThighBend
+    - leftUpLeg
+    - LeftUpLeg
+    - lThighBend
+    - LThighBend
+  - boneType: 24
+    keyWords:
+    - leftToeBase
+    - LeftToeBase
+    - lToe
+    - LToe
+  - boneType: 18
+    keyWords:
+    - lowerLeg_R
+    - LowerLeg_R
+    - rightLeg
+    - RightLeg
+    - rightShin
+    - RightShin
+    - rShin
+    - RShin
+  - boneType: 63
+    keyWords:
+    - muscle_Arm_R
+    - Muscle_Arm_R
+    - rightShoulderTwist
+    - RightShoulderTwist
+    - rShldrTwist
+    - RShldrTwist
+    - rShoulderTwist
+    - RShoulderTwist
+  - boneType: 64
+    keyWords:
+    - muscle_ForeArm_R
+    - Muscle_ForeArm_R
+    - rForearmTwist
+    - RForearmTwist
+    - rightForearmTwist
+    - RightForearmTwist
+  - boneType: 83
+    keyWords:
+    - muscle_UpperLeg_R
+    - Muscle_UpperLeg_R
+    - rThighTwist
+    - RThighTwist
+  - boneType: 2
+    keyWords:
+    - neck
+    - Neck
+    - neckLower
+    - NeckLower
+  - boneType: 30
+    keyWords:
+    - neck1
+    - Neck1
+    - neckUpper
+    - NeckUpper
+  - boneType: 77
+    keyWords:
+    - rBigToe
+    - RBigToe
+  - boneType: 88
+    keyWords:
+    - rCarpal1
+    - RCarpal1
+  - boneType: 89
+    keyWords:
+    - rCarpal2
+    - RCarpal2
+  - boneType: 90
+    keyWords:
+    - rCarpal3
+    - RCarpal3
+  - boneType: 91
+    keyWords:
+    - rCarpal4
+    - RCarpal4
+  - boneType: 8
+    keyWords:
+    - rCollar
+    - RCollar
+    - rightCollar
+    - RightCollar
+    - rightShoulder
+    - RightShoulder
+    - rShoulder
+    - RShoulder
+  - boneType: 70
+    keyWords:
+    - rEye
+    - REye
+    - rightEye
+    - RightEye
+  - boneType: 20
+    keyWords:
+    - rFoot
+    - RFoot
+    - rightFoot
+    - RightFoot
+  - boneType: 12
+    keyWords:
+    - rForearmBend
+    - RForearmBend
+    - rightForeArm
+    - RightForeArm
+    - rightForearmBend
+    - RightForearmBend
+  - boneType: 14
+    keyWords:
+    - rHand
+    - RHand
+    - rightHand
+    - RightHand
+  - boneType: 49
+    keyWords:
+    - rIndex1
+    - RIndex1
+  - boneType: 50
+    keyWords:
+    - rIndex2
+    - RIndex2
+  - boneType: 51
+    keyWords:
+    - rIndex3
+    - RIndex3
+  - boneType: 52
+    keyWords:
+    - rMid1
+    - RMid1
+  - boneType: 53
+    keyWords:
+    - rMid2
+    - RMid2
+  - boneType: 54
+    keyWords:
+    - rMid3
+    - RMid3
+  - boneType: 58
+    keyWords:
+    - rPinky1
+    - RPinky1
+  - boneType: 59
+    keyWords:
+    - rPinky2
+    - RPinky2
+  - boneType: 60
+    keyWords:
+    - rPinky3
+    - RPinky3
+  - boneType: 55
+    keyWords:
+    - rRing1
+    - RRing1
+  - boneType: 56
+    keyWords:
+    - rRing2
+    - RRing2
+  - boneType: 57
+    keyWords:
+    - rRing3
+    - RRing3
+  - boneType: 78
+    keyWords:
+    - rSmallToe1
+    - RSmallToe1
+  - boneType: 79
+    keyWords:
+    - rSmallToe2
+    - RSmallToe2
+  - boneType: 80
+    keyWords:
+    - rSmallToe3
+    - RSmallToe3
+  - boneType: 81
+    keyWords:
+    - rSmallToe4
+    - RSmallToe4
+  - boneType: 46
+    keyWords:
+    - rThumb1
+    - RThumb1
+  - boneType: 47
+    keyWords:
+    - rThumb2
+    - RThumb2
+  - boneType: 48
+    keyWords:
+    - rThumb3
+    - RThumb3
+  - boneType: 10
+    keyWords:
+    - rightArm
+    - RightArm
+    - rightShoulderBend
+    - RightShoulderBend
+    - rShldrBend
+    - RShldrBend
+    - rShoulderBend
+    - RShoulderBend
+  - boneType: 29
+    keyWords:
+    - rightForeFoot
+    - RightForeFoot
+    - rightMetatarsals
+    - RightMetatarsals
+    - rMetatarsals
+    - RMetatarsals
+  - boneType: 16
+    keyWords:
+    - rightThighBend
+    - RightThighBend
+    - rightUpLeg
+    - RightUpLeg
+    - rThighBend
+    - RThighBend
+  - boneType: 26
+    keyWords:
+    - rightToeBase
+    - RightToeBase
+    - rightToes
+    - RightToes
+    - rToe
+    - RToe
+    - rToes
+    - RToes
+  - boneType: 22
+    keyWords:
+    - spine2
+    - Spine2
+  - boneType: 23
+    keyWords:
+    - spine3
+    - Spine3
+  - boneType: 66
+    keyWords:
+    - tongue01
+    - Tongue01
+  - boneType: 67
+    keyWords:
+    - tongue02
+    - Tongue02
+  - boneType: 68
+    keyWords:
+    - tongue03
+    - Tongue03

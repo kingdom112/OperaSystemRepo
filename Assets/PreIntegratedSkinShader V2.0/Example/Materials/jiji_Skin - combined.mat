@@ -1,0 +1,749 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jiji_Skin - combined
+  m_Shader: {fileID: 4800000, guid: 1ab69c7fdba26324aadec3b99314095a, type: 3}
+  m_ShaderKeywords: TESSELLATION_ON _NORMALMAP _TEST1_B _TEST2_B _TEST3_B
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c69f701c5197ed5438cd8056afd03522, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ccaf087218f3cf54d9b5bf5601feefb6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PSSProfile
+        second:
+          m_Texture: {fileID: 2800000, guid: 9047b824cc54d0b48850f5a6d269a2d2, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 18f5161c3bbc035458807d3beb123ca8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SkinMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecularMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 916ebcd03416de240b69f2733ceced8c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GlossinessMap
+        second:
+          m_Texture: {fileID: 2800000, guid: d0a7e10b2f393484099512b3082c8daf, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TranslucencyMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AmbientOcclusionTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 66133a4ada0ea1b4c9f9d5ce313a698d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupHighMisc
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupHighDiffuseA
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupHighDiffuseB
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupMediumMisc
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupMediumDiffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupLowMisc
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupLowDiffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupUglyMisc
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupUglyDiffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DispTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2be1ce187e4cb32459c23cc2fa1bfaf7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupTranslucency
+        second:
+          m_Texture: {fileID: 2800000, guid: 9cc499834771532448f9f9589d799c2e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupDiffuseSpec
+        second:
+          m_Texture: {fileID: 2800000, guid: 2b455fb156396cb45b093d3778f3a4d7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlosDepthMap
+        second:
+          m_Texture: {fileID: 2800000, guid: adaa1ba2a875149478e6f6de58bf7336, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlosMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackScatterColor
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackScatterMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DepthTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5f185e0ebbe356c428ff8c81d7b4a896, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupEL
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupSH
+        second:
+          m_Texture: {fileID: 2800000, guid: 64d7e30d253aba54794616efab10bb94, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupDirect
+        second:
+          m_Texture: {fileID: 2800000, guid: ee7a7f61be8cb4f41bd6c6888fd1719f, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupDirectSM2
+        second:
+          m_Texture: {fileID: 2800000, guid: c82ac15d8e3571f44b48e20691d6fbf2, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupSHSM2
+        second:
+          m_Texture: {fileID: 2800000, guid: cdfb09254acaac645b3e2d5c35968c6b, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlosAOMap
+        second:
+          m_Texture: {fileID: 2800000, guid: adaa1ba2a875149478e6f6de58bf7336, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupSpecAO
+        second:
+          m_Texture: {fileID: 2800000, guid: 0978e19c24154c048a16e819aa87d3f1, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Shininess
+        second: .078125
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _Glossiness
+        second: .5
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _
+        second: 0
+      data:
+        first:
+          name: _ScatteringOffset
+        second: .0529999994
+      data:
+        first:
+          name: _ScatteringPower
+        second: .289999992
+      data:
+        first:
+          name: _FresnelSkin
+        second: .0280000009
+      data:
+        first:
+          name: _FresnelMasked
+        second: .00999999978
+      data:
+        first:
+          name: _SpecIntensity
+        second: .119999997
+      data:
+        first:
+          name: _SpecIntensity2
+        second: 1
+      data:
+        first:
+          name: _SpecRoughness
+        second: .894230843
+      data:
+        first:
+          name: _SpecRoughness2
+        second: .699999988
+      data:
+        first:
+          name: _TranslucencyOffset
+        second: .0370000005
+      data:
+        first:
+          name: _TranslucencyScale
+        second: 3.17000008
+      data:
+        first:
+          name: _TranslucencyPower
+        second: .460000008
+      data:
+        first:
+          name: _TranslucencyRadius
+        second: .477999985
+      data:
+        first:
+          name: _AmbientOcclusionStrength
+        second: .870000005
+      data:
+        first:
+          name: _AmbientOcclusionLightSuppression
+        second: .837000012
+      data:
+        first:
+          name: _AmbientOcclusionScattering
+        second: .699999988
+      data:
+        first:
+          name: _BackRimStrength
+        second: .15384616
+      data:
+        first:
+          name: _BackRimSmoothness
+        second: 6.84615374
+      data:
+        first:
+          name: _BackRimWidth
+        second: .884615362
+      data:
+        first:
+          name: _FrontRimStrength
+        second: 0
+      data:
+        first:
+          name: _FrontRimSmoothness
+        second: 20
+      data:
+        first:
+          name: _FrontRimWidth
+        second: 0
+      data:
+        first:
+          name: _BumpinessDR
+        second: 0
+      data:
+        first:
+          name: _BumpinessDG
+        second: .538461506
+      data:
+        first:
+          name: _BumpinessDB
+        second: .980769217
+      data:
+        first:
+          name: _Bumpiness
+        second: 1.19230771
+      data:
+        first:
+          name: _DisplacementScale
+        second: .00300000003
+      data:
+        first:
+          name: _DisplacementOffset
+        second: .419999987
+      data:
+        first:
+          name: _EdgeLength
+        second: 5
+      data:
+        first:
+          name: _Phong
+        second: .5
+      data:
+        first:
+          name: _TessDivisions
+        second: 8
+      data:
+        first:
+          name: _TessRadius
+        second: .25
+      data:
+        first:
+          name: _TessCullAngle
+        second: 1
+      data:
+        first:
+          name: _InternalBegin
+        second: 0
+      data:
+        first:
+          name: _InternalEnd
+        second: 0
+      data:
+        first:
+          name: _PenumbraScatteringDirectional
+        second: .5
+      data:
+        first:
+          name: _PenumbraScatteringSpot
+        second: .5
+      data:
+        first:
+          name: _PenumbraScatteringPoint
+        second: .5
+      data:
+        first:
+          name: _BackRimHardness
+        second: 1
+      data:
+        first:
+          name: _SHDominantSpecIntensity
+        second: 1
+      data:
+        first:
+          name: _SHAmbientOcclusionStrength
+        second: .5
+      data:
+        first:
+          name: _SHTranslucencyIntensity
+        second: 1
+      data:
+        first:
+          name: _SpecGlossiness
+        second: .639999986
+      data:
+        first:
+          name: _PSSInternalExpanded
+        second: 1
+      data:
+        first:
+          name: _SpecBlur
+        second: .949999988
+      data:
+        first:
+          name: _SpecEnvMapIntensity
+        second: .32100001
+      data:
+        first:
+          name: _AmbientSqueeze
+        second: 0
+      data:
+        first:
+          name: _Tess
+        second: 1
+      data:
+        first:
+          name: _Test1
+        second: 1
+      data:
+        first:
+          name: _Test2
+        second: 1
+      data:
+        first:
+          name: _Test3
+        second: 1
+      data:
+        first:
+          name: _PenumbraScattering
+        second: 1
+      data:
+        first:
+          name: _WorldScale
+        second: 45.4300003
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _PSSProfileHigh_weighths1_var1
+        second: {r: .232999995, g: .454545438, b: .647058725, a: .0900000036}
+      data:
+        first:
+          name: _PSSProfileHigh_weighths2_var2
+        second: {r: .100000001, g: .335664302, b: .342971057, a: .100000001}
+      data:
+        first:
+          name: _PSSProfileHigh_weighths3_var3
+        second: {r: .118000001, g: .197802186, b: .000997008872, a: .209999993}
+      data:
+        first:
+          name: _PSSProfileHigh_weighths4_var4
+        second: {r: .112999998, g: .00699300691, b: .00697906222, a: .566999972}
+      data:
+        first:
+          name: _PSSProfileHigh_weighths5_var5
+        second: {r: .35800001, g: .00399600388, b: .000997008872, a: 3.13000011}
+      data:
+        first:
+          name: _PSSProfileHigh_weighths6_var6
+        second: {r: .0780000016, g: .000999000971, b: .000997008872, a: 7.69999981}
+      data:
+        first:
+          name: _PSSProfileHigh_sqrtvar1234
+        second: {r: .300000012, g: .316227764, b: .458257556, a: .752994001}
+      data:
+        first:
+          name: _PSSProfileHigh_transl123_sqrtvar5
+        second: {r: -16.0299435, g: -14.4269505, b: -6.86997652, a: 1.76918066}
+      data:
+        first:
+          name: _PSSProfileHigh_transl456_sqrtvar6
+        second: {r: -2.54443574, g: -.460924923, b: -.187362999, a: 2.77488732}
+      data:
+        first:
+          name: _PSSProfileMedium_weighths1_var1
+        second: {r: .333000004, g: .79020977, b: .990029812, a: .0939337611}
+      data:
+        first:
+          name: _PSSProfileMedium_weighths2_var2
+        second: {r: .231000006, g: .204795197, b: .00797607098, a: .282617986}
+      data:
+        first:
+          name: _PSSProfileMedium_weighths3_var3
+        second: {r: .436000019, g: .00499500474, b: .00199401774, a: 3.95218468}
+      data:
+        first:
+          name: _PSSProfileMedium_transl123
+        second: {r: -15.3586426, g: -5.10475302, b: -.365037352, a: 0}
+      data:
+        first:
+          name: _PSSProfileMedium_sqrtvar123
+        second: {r: .30648616, g: .531618297, b: 1.98801029, a: 0}
+      data:
+        first:
+          name: _PSSProfileLow_weighths1_var1
+        second: {r: .451000005, g: .988011956, b: .991026819, a: .115176708}
+      data:
+        first:
+          name: _PSSProfileLow_weighths2_var2
+        second: {r: .549000025, g: .0119880121, b: .00897307973, a: 3.19169641}
+      data:
+        first:
+          name: _PSSProfileLow_transl12_sqrtvar12
+        second: {r: -8.33264065, g: -2.5468266, b: .416098297, a: .752640486}
+      data:
+        first:
+          name: _PSSProfileUgly_transrgb
+        second: {r: -1.04326284, g: -21.1530132, b: -58.0194778, a: 0}
+      data:
+        first:
+          name: _BlurRange
+        second: {r: .0829268321, g: 1.26836777, b: 0, a: 0}
+      data:
+        first:
+          name: _TranslucencyColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ScatteringProfile6_1
+        second: {r: .232999995, g: .455000013, b: .648999989, a: .00639999984}
+      data:
+        first:
+          name: _ScatteringProfile6_2
+        second: {r: .100000001, g: .335999995, b: .344000012, a: .0483999997}
+      data:
+        first:
+          name: _ScatteringProfile6_3
+        second: {r: .118000001, g: .197999999, b: 0, a: .187000006}
+      data:
+        first:
+          name: _ScatteringProfile6_4
+        second: {r: .112999998, g: .00700000022, b: .00700000022, a: .566999972}
+      data:
+        first:
+          name: _ScatteringProfile6_5
+        second: {r: .35800001, g: .00400000019, b: 9.99999975e-06, a: 1.99000001}
+      data:
+        first:
+          name: _ScatteringProfile6_6
+        second: {r: .0780000016, g: 9.99999975e-06, b: 9.99999975e-06, a: 7.40999985}
+      data:
+        first:
+          name: _ScatteringProfile3_1
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ScatteringProfile3_2
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ScatteringProfile3_3
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ScatteringProfile2_1
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _ScatteringProfile2_2
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _VarianceRGB
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _BackScatterTintColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TranslucencColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _PSSProfileUgly_transrgb_avgvar
+        second: {r: -1.61573291, g: -7.08791447, b: -13.8931303, a: .398296148}
+      data:
+        first:
+          name: _PSSProfileLow_sqrtvar12
+        second: {r: .339376926, g: 1.78653193, b: 0, a: 0}
+      data:
+        first:
+          name: _PSSProfileLow_transl
+        second: {r: -.783664048, g: -10.2918196, b: -13.4208555, a: 0}

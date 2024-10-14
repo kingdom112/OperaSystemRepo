@@ -1,0 +1,20 @@
+﻿2.0.12b
+Changelog:
+-FBX reader refactoring.
+-Fixed Avatar orientation issues.
+-Fixed UniversalRP/HDRP Material Mappers automatic assignment.
+-Fixed ByNameHumanoidAvatarMapper.
+-Fixed progress handling.
+-Added Thread names option.
+-Added deprecation warnings on the compilation.
+-Added Version Notes area.
+-Added Material Mapper settings to Project Settings/TriLib area.
+-Added TriLibSettings ScriptableObject used to save settings per project.
+-Added the ForceGCCollectionWhileLoading option to release memory promptly while loading the model.
+-Deprecated ResampleCurves loader option.
+-Renamed the SFB namespace to TriLibCore.SFB (*See notes).
+-Fixed AssetDownloader sample error.
+Version Notes:
+Since TriLib 2.0.12, the 'SFB' namespace has been replaced by the 'TriLibCore.SFB' namespace to avoid conflicts with the vanilla StandaloneFileBrowser.
+To fix errors related to the 'SFB' namespace, replace the 'SFB' namespace from your code with the 'TriLibCore.SFB' namespace.
+If you need any guidance, send a message to 'contato@ricardoreis.net'.

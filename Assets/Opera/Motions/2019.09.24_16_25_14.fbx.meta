@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 157736f988a7eb54e9e1daf4c9834722
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: chest
+    100004: head
+    100006: hip
+    100008: hip1
+    100010: hip2
+    100012: hip3
+    100014: lCollar
+    100016: lFoot
+    100018: lFoot1
+    100020: lFoot2
+    100022: lForeArm
+    100024: lHand
+    100026: lHand1
+    100028: lShin
+    100030: lShldr
+    100032: lThigh
+    100034: neck
+    100036: PositionNode
+    100038: rCollar
+    100040: rFoot
+    100042: rFoot1
+    100044: rFoot2
+    100046: rForeArm
+    100048: rHand
+    100050: rHand1
+    100052: rShin
+    100054: rShldr
+    100056: rThigh
+    400000: //RootNode
+    400002: chest
+    400004: head
+    400006: hip
+    400008: hip1
+    400010: hip2
+    400012: hip3
+    400014: lCollar
+    400016: lFoot
+    400018: lFoot1
+    400020: lFoot2
+    400022: lForeArm
+    400024: lHand
+    400026: lHand1
+    400028: lShin
+    400030: lShldr
+    400032: lThigh
+    400034: neck
+    400036: PositionNode
+    400038: rCollar
+    400040: rFoot
+    400042: rFoot1
+    400044: rFoot2
+    400046: rForeArm
+    400048: rHand
+    400050: rHand1
+    400052: rShin
+    400054: rShldr
+    400056: rThigh
+    7400000: Cube Animation Stack
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

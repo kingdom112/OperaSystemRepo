@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Face
+  m_Shader: {fileID: 4800000, guid: 1ab69c7fdba26324aadec3b99314095a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AmbientOcclusionTex:
+        m_Texture: {fileID: 2800000, guid: 283ef208faca08443a4bcbe22fe421b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 8e480c6cf0312df4d8cd175c9bb84c35, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthMap:
+        m_Texture: {fileID: 2800000, guid: b0c75853e9c7eb84b9381d01409f4942, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossinessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LookupDirect:
+        m_Texture: {fileID: 2800000, guid: ee7a7f61be8cb4f41bd6c6888fd1719f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LookupDirectSM2:
+        m_Texture: {fileID: 2800000, guid: c82ac15d8e3571f44b48e20691d6fbf2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LookupSH:
+        m_Texture: {fileID: 2800000, guid: 64d7e30d253aba54794616efab10bb94, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LookupSpecAO:
+        m_Texture: {fileID: 2800000, guid: 0978e19c24154c048a16e819aa87d3f1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 24e7e8b8d2aea6d4ca3a130cbec77053, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PSSProfile:
+        m_Texture: {fileID: 2800000, guid: 9047b824cc54d0b48850f5a6d269a2d2, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SkinMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 2800000, guid: c5a60d66b6e01ea46b93e77e366612db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 2800000, guid: 6576834a99e68dc4e9375b8ae1062ef5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _: 0
+    - _AmbientOcclusionLightSuppression: 1
+    - _AmbientOcclusionScattering: 1.038
+    - _AmbientOcclusionStrength: 0.526
+    - _PSSInternalExpanded: 0
+    - _ScatteringOffset: 0.06
+    - _ScatteringPower: 1.129
+    - _SpecBlur: 1
+    - _SpecEnvMapIntensity: 0.5
+    - _SpecGlossiness: 0.681
+    - _SpecIntensity: 0.021
+    - _TranslucencyOffset: 0
+    - _TranslucencyPower: 1
+    - _TranslucencyRadius: 1
+    - _TranslucencyScale: 3
+    m_Colors:
+    - _BlurRange: {r: 0, g: 1, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _PSSProfileHigh_sqrtvar1234: {r: 0.08, g: 0.22, b: 0.43243498, a: 0.752994}
+    - _PSSProfileHigh_transl123_sqrtvar5: {r: -225.4211, g: -29.807749, b: -7.7149463,
+        a: 1.4106736}
+    - _PSSProfileHigh_transl456_sqrtvar6: {r: -2.5444357, g: -0.72497237, b: -0.19469568,
+        a: 2.7221315}
+    - _PSSProfileHigh_weighths1_var1: {r: 0.233, g: 0.45454544, b: 0.6470587, a: 0.0064}
+    - _PSSProfileHigh_weighths2_var2: {r: 0.1, g: 0.3356643, b: 0.34297106, a: 0.0484}
+    - _PSSProfileHigh_weighths3_var3: {r: 0.118, g: 0.19780219, b: 0.0009970089, a: 0.187}
+    - _PSSProfileHigh_weighths4_var4: {r: 0.113, g: 0.006993007, b: 0.006979062, a: 0.567}
+    - _PSSProfileHigh_weighths5_var5: {r: 0.358, g: 0.003996004, b: 0.0009970089,
+        a: 1.99}
+    - _PSSProfileHigh_weighths6_var6: {r: 0.078, g: 0.000999001, b: 0.0009970089,
+        a: 7.41}
+    - _PSSProfileLow_sqrtvar12: {r: 0.23011322, g: 1.5576804, b: 0, a: 0}
+    - _PSSProfileLow_transl: {r: -1.0432628, g: -19.117676, b: -42.11458, a: 0}
+    - _PSSProfileLow_weighths1_var1: {r: 0.451, g: 0.98801196, b: 0.9910268, a: 0.052952096}
+    - _PSSProfileLow_weighths2_var2: {r: 0.549, g: 0.011988012, b: 0.00897308, a: 2.426368}
+    - _PSSProfileMedium_sqrtvar123: {r: 0.15139943, g: 0.51409775, b: 1.7219486, a: 0}
+    - _PSSProfileMedium_transl123: {r: -62.939896, g: -5.458624, b: -0.48655745, a: 0}
+    - _PSSProfileMedium_weighths1_var1: {r: 0.333, g: 0.7902098, b: 0.9900298, a: 0.02292179}
+    - _PSSProfileMedium_weighths2_var2: {r: 0.231, g: 0.2047952, b: 0.007976071, a: 0.26429647}
+    - _PSSProfileMedium_weighths3_var3: {r: 0.43600002, g: 0.0049950047, b: 0.0019940177,
+        a: 2.9651072}
+    - _TranslucencyColor: {r: 1, g: 1, b: 1, a: 1}

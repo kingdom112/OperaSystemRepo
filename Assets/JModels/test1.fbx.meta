@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 64d4cd2202215ac42bf9ef9eca59efea
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms
+    second: {fileID: 2100000, guid: f30b7b0cd703fba4fa1d1c17e0fce2b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Back_Mat
+    second: {fileID: 2100000, guid: f000fc33757be774990e71535e4b5108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cap_Mat
+    second: {fileID: 2100000, guid: 9e51ee6943d34c246bc6da30dd7c541a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cornea
+    second: {fileID: 2100000, guid: 02a054f5f24ffd94494971ac2fd2e482, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ears
+    second: {fileID: 2100000, guid: 732eec0a39ecd8a478399e729fc5d733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeMoisture
+    second: {fileID: 2100000, guid: 115849af3dde1df419b439781682b3d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeSocket
+    second: {fileID: 2100000, guid: a530688f41aa42d4f83521b48c1f258a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyelashes
+    second: {fileID: 2100000, guid: eb63e3a1dcaeca0458669621a36a389e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face
+    second: {fileID: 2100000, guid: 5b6cbafbc1fa67245b82dd2f8234bc8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fine_Mat
+    second: {fileID: 2100000, guid: 490d96454ade68046a42d945ae81b4f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fingernails
+    second: {fileID: 2100000, guid: 925f581dff6e69141bb3b010d3da3754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_Mat
+    second: {fileID: 2100000, guid: 9bc740b627ba3014eb7390e6eeba18db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Irises
+    second: {fileID: 2100000, guid: f7cdd55f0f4bfdc4693bca709a5ac9ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: 00217546afef92742a06a307da5e7af1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lips
+    second: {fileID: 2100000, guid: d54035dc8d3f40c4facddee8ede36fa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouth
+    second: {fileID: 2100000, guid: 9c7c28fd98da42d48ac6ee64d7d33a8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei Brows
+    second: {fileID: 2100000, guid: b698e99b0c7f3eb44aeea45fb40962a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_ArmBelt_A
+    second: {fileID: 2100000, guid: f605135a55d05054c84ab0ca9ab089d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_ArmBelt_B
+    second: {fileID: 2100000, guid: d50b588e2dfd1b5409518fc3b6f916a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_ArmsBuckles
+    second: {fileID: 2100000, guid: fefd5d9b7bc0320458c3a0834f17c942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_BackBuckle
+    second: {fileID: 2100000, guid: 99b3a646636ddc943bbfdbdde4d54454, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_Base
+    second: {fileID: 2100000, guid: b08e9488754d1814c89bbc1babb03f4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_BaseAlt
+    second: {fileID: 2100000, guid: 62a8756c57910ce4e8f448019085064e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_BaseMetalnail
+    second: {fileID: 2100000, guid: 449a3c60da5f9ab45a146a052ec53348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_Buckles
+    second: {fileID: 2100000, guid: a3cf71faff0e78144b4dffbc4ee523e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_FrontDeco
+    second: {fileID: 2100000, guid: 97408d7fd6019644b962d21b528c24b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeiTop_MainBelt
+    second: {fileID: 2100000, guid: 3b15ec5ec6bf0a64682116e4b8818f6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_Base
+    second: {fileID: 2100000, guid: 95100990889934e458b8889c1287c772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_BaseAlt
+    second: {fileID: 2100000, guid: cf44d4bdf6735b94cba6199da7afeec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_BaseUpper
+    second: {fileID: 2100000, guid: 5c04f91e46109cb4e932daf268c6249c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_Core
+    second: {fileID: 2100000, guid: a10c88e4a9bbe9a4ea4586fd3a91bae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_Metals
+    second: {fileID: 2100000, guid: 27954f5193b77a846b9ab583187dc595, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_Threads
+    second: {fileID: 2100000, guid: 35c98c7f5ed9d7343ba833e75040d2bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_UpperWings
+    second: {fileID: 2100000, guid: 29b7ac13cb5ebfb46b73fa783f366564, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_CyberHeels_WheelUpper
+    second: {fileID: 2100000, guid: 442473c909445704890a83a33b13d87d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging BackBelts
+    second: {fileID: 2100000, guid: 9c69cfc4e84e4684d9882464357c8294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging BackRubber
+    second: {fileID: 2100000, guid: 61e25b8afe17b504c933f8d087b2ddf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging BackUpperRubber
+    second: {fileID: 2100000, guid: 186f0efd7f79fac4da739e62dee8556d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging EndingRubber
+    second: {fileID: 2100000, guid: b80ac3e138e307947a731965a5587d8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging FrontBase
+    second: {fileID: 2100000, guid: a1c9c151660d0ab4d92a8dee2fc1323e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging Lights
+    second: {fileID: 2100000, guid: 9e48bfa6402051749939ad82c79dbf52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging LightsBases
+    second: {fileID: 2100000, guid: 99507e1aa56715242a0f9844131c9bd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging SideLeather Big
+    second: {fileID: 2100000, guid: 88ea0e6639fd4f04da0302a61d29011c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging SideLeather Small
+    second: {fileID: 2100000, guid: c22836ae43eafcb4599e65f6f8daf245, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Legging Upper
+    second: {fileID: 2100000, guid: df513fce35812e74cbfd86655d9fe42d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Lights
+    second: {fileID: 2100000, guid: a365c8de2be439e4090c8608cb427393, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Pants_Base
+    second: {fileID: 2100000, guid: e4c530e4a1c0ba140859f403587635e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Pants_Upper
+    second: {fileID: 2100000, guid: ec8a2459d35494043a469aabf2db4b07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_PlateBase
+    second: {fileID: 2100000, guid: 5a9553c25ebf8384abe413602fd4e218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Shirt_Back
+    second: {fileID: 2100000, guid: a6d35963747b84f459e273654272aaec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Shirt_Front
+    second: {fileID: 2100000, guid: 1f3127a1527f60b439061deb9ef116ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pei_Shirt_Label
+    second: {fileID: 2100000, guid: 180f30d73749775409629aa295e4dcac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pupils
+    second: {fileID: 2100000, guid: bba7628cac2586a4cbbe7284e3273e7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sclera
+    second: {fileID: 2100000, guid: 61bded0d83c4a0c4cbed7a13ec22c071, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sides_L_Mat
+    second: {fileID: 2100000, guid: a2d6fb64138de364792c1066389dbd8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sides_R_Mat
+    second: {fileID: 2100000, guid: 3d70089358cbe45468ff4b95b5238043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teeth
+    second: {fileID: 2100000, guid: ab8c52f1f17ab304fa16808aeb3011e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toenails
+    second: {fileID: 2100000, guid: 9821c5ea26ad29e45aaa9fe6672de55e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torso
+    second: {fileID: 2100000, guid: 8f4799a977d6ba5458e83c86cbf15987, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

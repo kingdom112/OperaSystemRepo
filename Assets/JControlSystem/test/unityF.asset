@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf4c1c6b2eacff42935e5854ad74bb4, type: 3}
+  m_Name: unityF
+  m_EditorClassIdentifier: 
+  states:
+  - stateName: NewState
+    ResourceName: NoResourceName
+    mousePos: {x: 269, y: 181}
+  boneMarkerNames: []
+  boneFramework:
+    Bones:
+    - boneType: 3
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0, y: 0.86858183, z: 0.011826879}
+      localScale: {x: 0.9999992, y: 0.9999991, z: 0.9999994}
+      localRotation: {x: 0.20354177, y: 270, z: 270}
+      ChildsList:
+      - numberInList: 1
+      - numberInList: 5
+      - numberInList: 9
+    - boneType: 15
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: 0.06031916, y: 0.0020788328, z: 0.07298301}
+      localScale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+      localRotation: {x: 359.95148, y: 181.92807, z: 1.2805233}
+      ChildsList:
+      - numberInList: 2
+    - boneType: 17
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.35179782, y: -0.008010951, z: 0.0051462576}
+      localScale: {x: 0.9999997, y: 0.99999976, z: 0.99999964}
+      localRotation: {x: -0.0002955135, y: 0.00014245792, z: 1.8848691}
+      ChildsList:
+      - numberInList: 3
+    - boneType: 19
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.37866625, y: 0.003828147, z: -0.0037770213}
+      localScale: {x: 0.9999996, y: 0.99999917, z: 0.9999999}
+      localRotation: {x: 0.00050784624, y: 0.0001451358, z: 329.3514}
+      ChildsList:
+      - numberInList: 4
+    - boneType: 24
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.084295675, y: 0.04771042, z: -0.0039216853}
+      localScale: {x: 1.0000006, y: 0.9999997, z: 1.0000002}
+      localRotation: {x: 358.52374, y: 2.8266623, z: 297.44427}
+      ChildsList: []
+    - boneType: 16
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: 0.06083579, y: 0.0020787853, z: -0.072552614}
+      localScale: {x: 1, y: 1.0000002, z: 1.0000001}
+      localRotation: {x: 0.0008413267, y: 179.7968, z: 1.2829947}
+      ChildsList:
+      - numberInList: 6
+    - boneType: 18
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.35136372, y: -0.0080112815, z: -0.018233713}
+      localScale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+      localRotation: {x: -0.0008443873, y: -0.0001876196, z: 1.8852944}
+      ChildsList:
+      - numberInList: 7
+    - boneType: 20
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.3785454, y: 0.0038244387, z: -0.010314554}
+      localScale: {x: 0.9999998, y: 0.9999996, z: 1}
+      localRotation: {x: -0.0000110156225, y: -0.00028217255, z: 329.35138}
+      ChildsList:
+      - numberInList: 8
+    - boneType: 26
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.08439235, y: 0.047660332, z: 0.0020256662}
+      localScale: {x: 0.99999994, y: 0.99999946, z: 0.9999996}
+      localRotation: {x: 359.99387, y: -0.003011635, z: 297.48032}
+      ChildsList: []
+    - boneType: 4
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.022713343, y: 0.008181497, z: -0.00008069934}
+      localScale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+      localRotation: {x: -0, y: 359.79645, z: 355.09784}
+      ChildsList:
+      - numberInList: 10
+    - boneType: 21
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.09134354, y: 0.0017551515, z: -0.000000006891526}
+      localScale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+      localRotation: {x: -0, y: 0, z: 5.6369343}
+      ChildsList:
+      - numberInList: 11
+    - boneType: 22
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.08766678, y: -0.00030446955, z: -0.000000018569484}
+      localScale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+      localRotation: {x: 359.20935, y: 359.69016, z: 17.354765}
+      ChildsList:
+      - numberInList: 12
+      - numberInList: 16
+      - numberInList: 18
+    - boneType: 7
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.12236678, y: -0.0013949821, z: 0.04222679}
+      localScale: {x: 1.0000004, y: 1.0000011, z: 1.0000008}
+      localRotation: {x: 18.084927, y: 90.33521, z: 0.8906842}
+      ChildsList:
+      - numberInList: 13
+    - boneType: 9
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.055436894, y: -0.000000047903697, z: 0.00000091983424}
+      localScale: {x: 0.9999999, y: 1, z: 0.99999994}
+      localRotation: {x: 0.0008869514, y: 0.30100515, z: 359.92242}
+      ChildsList:
+      - numberInList: 14
+    - boneType: 11
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.23377718, y: 0.000017186263, z: 0.0000117539585}
+      localScale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+      localRotation: {x: 359.98587, y: 0.119315386, z: 359.951}
+      ChildsList:
+      - numberInList: 15
+    - boneType: 13
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.16248195, y: -0.0000006351125, z: 0.00000024924654}
+      localScale: {x: 1.0000014, y: 1.0000011, z: 1.0000011}
+      localRotation: {x: 347.53088, y: 357.466, z: 0.12059668}
+      ChildsList: []
+    - boneType: 2
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.1568513, y: 0.008298479, z: 0.00028669508}
+      localScale: {x: 1.0000005, y: 1.0000008, z: 1.0000005}
+      localRotation: {x: 0.84707254, y: 0.059905984, z: 339.33853}
+      ChildsList:
+      - numberInList: 17
+    - boneType: 1
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.078083195, y: -0.0055345367, z: -0.0000000015732664}
+      localScale: {x: 1.0000008, y: 1.0000006, z: 1.0000011}
+      localRotation: {x: 2.507974, y: 359.54614, z: 10.416235}
+      ChildsList: []
+    - boneType: 8
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.122454844, y: -0.00014976753, z: -0.041993644}
+      localScale: {x: 1.0000011, y: 1.000001, z: 1.0000006}
+      localRotation: {x: 341.9151, y: 270.3379, z: 359.1085}
+      ChildsList:
+      - numberInList: 19
+    - boneType: 10
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.055437315, y: -0.000000047463757, z: -0.0000009960296}
+      localScale: {x: 1, y: 0.9999999, z: 0.99999994}
+      localRotation: {x: -0.0008864598, y: 359.69904, z: 359.92245}
+      ChildsList:
+      - numberInList: 20
+    - boneType: 12
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.23377882, y: 0.00001742176, z: -0.000012771544}
+      localScale: {x: 1, y: 1, z: 0.9999998}
+      localRotation: {x: 0.014827641, y: 359.87997, z: 359.9495}
+      ChildsList:
+      - numberInList: 21
+    - boneType: 14
+      isArmor: 0
+      armorMainName: 
+      armorPartName: 
+      localPos: {x: -0.16248012, y: -0.0000006606469, z: 0.000001726818}
+      localScale: {x: 1.0000001, y: 0.99999976, z: 0.9999999}
+      localRotation: {x: 0.19460836, y: 350.23392, z: 0.041819163}
+      ChildsList: []
+  boneFrameworkMousePosList:
+  - {x: -622, y: 478}
+  - {x: 416, y: 832}
+  - {x: 666, y: 846}
+  - {x: 883, y: 896}
+  - {x: 1150, y: 909}
+  - {x: 407, y: 633}
+  - {x: 638, y: 653}
+  - {x: 868, y: 717}
+  - {x: 1140, y: 731}
+  - {x: -268, y: 169}
+  - {x: -46, y: 187}
+  - {x: 195, y: 173}
+  - {x: 574, y: 399}
+  - {x: 805, y: 391}
+  - {x: 1009, y: 426}
+  - {x: 1252, y: 422}
+  - {x: 992, y: -38}
+  - {x: 1245, y: -15}
+  - {x: 605, y: 176}
+  - {x: 810, y: 187}
+  - {x: 1027, y: 202}
+  - {x: 1230, y: 223}
