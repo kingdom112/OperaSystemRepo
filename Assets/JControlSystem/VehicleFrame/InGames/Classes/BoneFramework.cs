@@ -327,6 +327,8 @@ namespace JVehicleFrameSystem
                         }
                         else
                         {
+                            // 创建一个空的root用于过渡坐标系
+                            
                             // List<Transform> boneParentList1 = new List<Transform>();
                             // Transform parentTemp = t1.parent;
                             // while (parentTemp != rootT)
