@@ -5,7 +5,7 @@ using JAnimationSystem;
 using JVehicleFrameSystem;
 
 
-public class JAnimRecoder 
+public class JAnimRecoder
 {
     public JAnimationData.JAD jAD = new JAnimationData.JAD();
     float timer = 0f;
@@ -58,21 +58,26 @@ public class JAnimRecoder
 
     public void RecodeNow()
     {
-        if(isRecoding)
+        if (isRecoding)
         {
-            for(int i=0; i<boneMatch.boneMatchList.Count; i++)
+            for (int i = 0; i < boneMatch.boneMatchList.Count; i++)
             {
                 if (boneMatch.boneMatchList[i].matchedT == null) continue;
-            
-                if(boneMatch.boneMatchList[i].boneType == JAnimationData.BoneType.hips)
+
+                if (boneMatch.boneMatchList[i].boneType == JAnimationData.BoneType.hips)
                 {
                     jAD.AddData_pos(boneMatch.boneMatchList[i].boneType, timer_total, boneMatch.boneMatchList[i].matchedT.localPosition);
-                    Vector4 roa = new Vector4(boneMatch.boneMatchList[i].matchedT.rotation.x,
-                        boneMatch.boneMatchList[i].matchedT.rotation.y,
-                        boneMatch.boneMatchList[i].matchedT.rotation.z,
-                        boneMatch.boneMatchList[i].matchedT.rotation.w);
+                    // Debug.Log("Hip的Roa旋转角度数据 用世界坐标系代替相对坐标系。");
+                    // 由于现在BoneFramework会在每个骨骼链起始前创建一个unknowType类型的root， 所以不需要这个操作了
+                    // Vector4 roa = new Vector4(boneMatch.boneMatchList[i].matchedT.rotation.x,
+                    //     boneMatch.boneMatchList[i].matchedT.rotation.y,
+                    //     boneMatch.boneMatchList[i].matchedT.rotation.z,
+                    //     boneMatch.boneMatchList[i].matchedT.rotation.w);
+                    Vector4 roa = new Vector4(boneMatch.boneMatchList[i].matchedT.localRotation.x,
+                        boneMatch.boneMatchList[i].matchedT.localRotation.y,
+                        boneMatch.boneMatchList[i].matchedT.localRotation.z,
+                        boneMatch.boneMatchList[i].matchedT.localRotation.w);
                     jAD.AddData_roa4(boneMatch.boneMatchList[i].boneType, timer_total, roa);
-                    //Debug.Log("Hip的Roa旋转角度数据 用世界坐标系代替相对坐标系。");
                 }
                 else
                 {
@@ -104,7 +109,7 @@ public class JAnimRecoder
         return JAnimDataToFile.SaveJAD(path, fileName, jAD, boneFramework1, false, modelPrefabName);
     }
 
-    public void StopRecode ()
+    public void StopRecode()
     {
         isRecoding = false;
         hasRecoded = true;
