@@ -20,7 +20,7 @@ namespace JVehicleFrameSystem
                     numberInList = _numberInList;
                 }
             }
-
+            #坐标
             public JAnimationData.BoneType boneType = JAnimationData.BoneType.hips;
             public bool isArmor = false;
             public string armorMainName = "";
